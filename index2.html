@@ -1,0 +1,57 @@
+<head>
+  <meta charset="UTF-8" />
+  <title>Sign Up</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800&family=Pacifico&family=Playpen+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" href="images/620.12-login-icon-iconbunny.jpg" />
+  <!-- ===== Font Awesome Icon Library ===== -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- ===== Bootstrap Framework ===== -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- ===== Main Style sheet ===== -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body cz-shortcut-listen="true" class="py-4">
+  <span class="d-none" id="username"></span>
+
+  <div class="container my-5 text-center">
+    <div class="group m-auto w-75 p-5 rounded-4">
+      <h1 class="text-white">Smart Login System</h1>
+
+      <input
+        id="signupName"
+        class="form-control my-3"
+        placeholder="Enter Your Name"
+        type="text"
+      />
+      <input
+        id="signupEmail"
+        class="form-control my-3"
+        placeholder="Enter Your Email"
+        type="email"
+      />
+
+      <input
+        id="signupPassword"
+        class="form-control my-3"
+        placeholder="Enter Your Password"
+        type="password"
+      />
+      <p id="exist"></p>
+
+      <button onclick=" signUp()" class="btn fw-bold btn-outline-success text-white w-100 my-3">
+        Sign Up
+      </button>
+      <p class="text-white">
+        You have an account? <a class="SignIn  text-white fw-bold link-underline-light link-underline-opacity-0" href="index.html">Sign In</a>
+      </p>
+    </div>
+  </div>
+  <div class="loader2"></div>
+
+
+  <script src="js/main.js"></script>
+</body>

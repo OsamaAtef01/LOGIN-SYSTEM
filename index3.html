@@ -1,0 +1,57 @@
+<head>
+  <meta charset="UTF-8" />
+  <title>Home</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800&family=Pacifico&family=Playpen+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" href="images/620.12-login-icon-iconbunny.jpg" />
+  <!-- ===== Font Awesome Icon Library ===== -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- ===== Bootstrap Framework ===== -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- ===== Main Style sheet ===== -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body id="home" cz-shortcut-listen="true">
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark group py-3">
+    <div class="container">
+      <a class="navbar-brand fs-4 fw-bold" href="#">SMART LOGIN</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="LogOut collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link btn text-white btn-outline-danger fs-4 fw-bold"
+              href="/"
+              onclick="logout()"
+              >Logout</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container my-5 text-center h-75 d-flex align-items-center">
+    <div class="group m-auto w-50 p-5">
+      <h1 class="text-white fw-bold" id="username"></h1>
+    </div>
+  </div>
+
+
+  <script src="js/main.js"></script>
+</body>
